@@ -1,0 +1,246 @@
+#desktop-nav {
+  display: none; }
+.nav-left,
+.nav-right {
+  display: inline-block;
+  height: 50px; }
+nav {
+  height: 50px; }
+.nav-right {
+  float: right;}
+  
+#offCanvasRight {
+  height: 100%; }
+.off-canvas-icon {
+  width: 80px; }
+.menu > li > a {
+  padding: 12px 85px; }
+.menu > li > a img, .menu > li > a i, .menu > li > a svg {
+  margin-right: 0; }
+  
+
+  
+.promo-pic {
+  text-align: center; }
+  
+#table-wrapper {
+  width: 75%;
+  margin: 0 auto; }
+  @media screen and (max-width: 350px) {
+    #table-wrapper {
+        width: 100%;
+        margin: 0 auto;}}
+table thead th,
+table tbody td {
+  text-align: center; }
+tbody td:first-child,
+thead th:first-child,
+tbody td:last-child,
+thead th:last-child {
+  width: 25%; }
+tbody td:nth-child(2),
+thead th:nth-child(2),
+tbody td:nth-child(3),
+thead th:nth-child(3) {
+  width: 25%;
+  text-align: center; }
+/** foundation override **/
+table thead,
+table tfoot,
+table tbody tr:nth-child(even) {
+  background-color: inherit; }
+table thead,
+table tbody {
+  border: 0; }
+
+.album-art-wrapper {
+  width: 250px;
+  margin: 0 auto; }
+
+footer {
+  text-align: center; }
+
+.off-canvas-content {
+  background-color: #0d111c; }
+
+nav {
+  background-color: #0d111c; }
+
+svg {
+  height: 70px;
+  fill: #c7d8e2;
+  margin-top: 15px;
+  margin-right: 7.5px;
+  transition: fill 0.5s; }
+
+.off-canvas svg {
+  margin-top: 0;
+   }
+
+.nav-right:last-child {
+  margin-right: 15px; }
+
+#offCanvasRight {
+  background-color: #0d111c; }
+
+#off-canvas-text {
+  color: #6b8397;
+  font-size: 40px;
+  font-family: "Oswald";
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0; }
+
+.shows,
+.table-wrapper,
+td,
+.shows > h1,
+table thead {
+  background-color: #0d111c;
+  color: #9fb9c8; }
+
+.album-art {
+  height: 250px;
+  margin-bottom: 40px; }
+
+.listen {
+  background-color: #6b8397;
+  height: 1000px; }
+
+.listen {
+  color: #0d111c; }
+
+footer {
+  background-color: #0d111c;
+  color: rgba(255, 255, 255, 0.2);
+  height: 50px;
+  padding: 15px 0 0 0; }
+
+.section-title {
+  font-family: "Oswald";
+  font-size: 60px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0; }
+
+table {
+  font-family: "Oswald";
+   }
+
+#heart {
+  color: red; }
+
+nav {
+  height: 50px; }
+
+.logo {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px; }
+
+table {
+  margin-bottom: 20px; }
+
+.icon {
+  height: 100%; }
+
+#menu-icon {
+  height: 80%;
+  margin-top: 5px;
+  margin-right: 0; }
+
+/****************************/
+/*******MEDIA QUERIES********/
+/****************************/
+@media screen and (min-width: 640px) and (max-width: 960px) {
+  .logo {
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 20px; }
+
+  #menu-icon {
+    float: right;
+    height: 80%;
+    margin-top: 7.5px; }
+
+  nav {
+    height: 75px; }
+
+  .nav-right {
+    height: 75px;
+    width: 33%; }
+
+  .listen {
+    height: auto; }
+
+  .album-art {
+    width: 28.125%;
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 3.90625%;
+    height: 28.125%;
+     }
+
+  .album-art-wrapper {
+    width: 92.1875%;
+    margin: 0 auto; } }
+@media screen and (min-width: 960px) {
+  #mobile-nav {
+    display: none; }
+
+  #desktop-nav {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.5);
+    height: 100px;}
+    
+    
+  body {
+  background-color: #c7d8e2; }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px; }
+
+  .logo {
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 15px; }
+
+  .listen {
+    height: auto; }
+
+  .album-art-wrapper {
+    width: 92.1875%;
+    margin: 0 auto; }
+    .album-art {
+    width: 28.125%;
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 3.90625%; }
+ }
+    
+td > a {
+    color: #9fb9c8;
+    height: inherit;
+    width: inherit;
+}
+
+.hover-effect:hover,
+.hover-effect > a:hover,
+.hover-effect:hover > a {
+    background-color: #9fb9c8;
+    color: red;
+    border-radius: 5px;
+}
+
+svg:hover {
+  fill: red; }
+svg:active {
+  fill: darkred; }
+a:visited {
+    color: #9fb9c8;
+}
